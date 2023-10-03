@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transform"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Anasayfa" />
+        <item
+            android:id="@+id/nav_reflow"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Destek" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Onarım Merkezleri" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="Etkinlik" />
+    </group>
+</menu>
